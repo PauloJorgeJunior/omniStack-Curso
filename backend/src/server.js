@@ -1,6 +1,6 @@
-const express = required('express');
-const mongoose = required('mongoose');
-const routes = required('./routes');
+const express = require('express');
+const mongoose = require('mongoose');
+const routes = require('./routes');
 
 const app = express();
 mongoose.connect('mongodb+srv://omnistack:stack123456@omnistack-sqguu.mongodb.net/semana09?retryWrites=true&w=majority', {
